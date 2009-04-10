@@ -59,7 +59,7 @@
 	NSString *tempMessage = nil;
 	
 	NSString *eyesServer = nil;
-	eyesServer = [[NSString alloc] initWithFormat:@"http://novalis.org/cgi/location.cgi"];
+	eyesServer = [[NSString alloc] initWithFormat:@"http://localhost.org/cgi/location.cgi"];
 	
 	NSString *postContent = nil;
 	postContent = [[NSString alloc] initWithFormat:@"report=%@&lat=%f&lng=%f&date=%@", txtProblem.text, latitude, longitude, timeStamp];
